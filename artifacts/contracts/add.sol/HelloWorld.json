@@ -1,0 +1,85 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "HelloWorld",
+  "sourceName": "contracts/add.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "initNumber",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "oldNumber",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "newNumber",
+          "type": "uint256"
+        }
+      ],
+      "name": "UpdatedMessages",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "getNumber",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "number",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "number1",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "number2",
+          "type": "uint256"
+        }
+      ],
+      "name": "update",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b506040516101ae3803806101ae8339818101604052602081101561003357600080fd5b810190808051906020019092919050505080600081905550506101538061005b6000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c80632fb565e8146100465780638381f58a1461007e578063f2c9ecd81461009c575b600080fd5b61007c6004803603604081101561005c57600080fd5b8101908080359060200190929190803590602001909291905050506100ba565b005b61008661010e565b6040518082815260200191505060405180910390f35b6100a4610114565b6040518082815260200191505060405180910390f35b60008183019050806000819055507f6d0ea4e79f029012cae6c7f8238d95d593aac48e68db0508a67e505a38dbef3160005482604051808381526020018281526020019250505060405180910390a1505050565b60005481565b6000805490509056fea264697066735822122009d99b08f285ab266d578a60c08342d0e3ed3bdc6e7421f89ee9ae351e51190664736f6c63430007030033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c80632fb565e8146100465780638381f58a1461007e578063f2c9ecd81461009c575b600080fd5b61007c6004803603604081101561005c57600080fd5b8101908080359060200190929190803590602001909291905050506100ba565b005b61008661010e565b6040518082815260200191505060405180910390f35b6100a4610114565b6040518082815260200191505060405180910390f35b60008183019050806000819055507f6d0ea4e79f029012cae6c7f8238d95d593aac48e68db0508a67e505a38dbef3160005482604051808381526020018281526020019250505060405180910390a1505050565b60005481565b6000805490509056fea264697066735822122009d99b08f285ab266d578a60c08342d0e3ed3bdc6e7421f89ee9ae351e51190664736f6c63430007030033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
